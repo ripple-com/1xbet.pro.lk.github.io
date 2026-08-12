@@ -566,6 +566,267 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
 }
 </style>
 
+
+<style id="real-icons-and-brand-ui">
+:root{
+  --ui-bg:#050912;
+  --ui-surface:#0b1220;
+  --ui-surface-2:#101a2b;
+  --ui-border:rgba(126,164,214,.14);
+  --ui-text:#f5f8ff;
+  --ui-muted:#9aa9bf;
+  --ui-accent:#ffcc18;
+  --ui-accent-2:#f39b16;
+  --ui-blue:#1976ff;
+  --ui-blue-2:#2da8ff;
+  --ui-glow:rgba(25,118,255,.18);
+}
+body{
+  background:
+    radial-gradient(circle at 10% -5%,rgba(25,118,255,.12),transparent 30rem),
+    radial-gradient(circle at 90% 15%,rgba(255,204,24,.06),transparent 26rem),
+    var(--ui-bg);
+}
+.btn.accent,.tg-pl{
+  background:linear-gradient(135deg,var(--ui-accent),var(--ui-accent-2))!important;
+  color:#12100a!important;
+}
+.btn.outline{
+  border-color:rgba(45,168,255,.42)!important;
+}
+.logo span,.tg-sec .tg-t span,.app-downloads h2 span,.app-kicker{
+  color:var(--ui-accent)!important;
+}
+.ui-inline-icon{
+  width:18px;height:18px;display:inline-block;vertical-align:-4px;
+  margin-left:7px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;
+}
+.ui-arrow-icon{width:16px;height:16px;margin-left:5px;vertical-align:-3px}
+.bonus-bar{
+  background:linear-gradient(90deg,rgba(5,9,18,.97),rgba(10,35,70,.96))!important;
+  border-top-color:rgba(45,168,255,.45)!important;
+}
+.bonus-bar__close{
+  width:34px;height:34px;padding:0!important;display:grid;place-items:center;
+}
+.bonus-bar__close svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.lb-close svg,.lb-prev svg,.lb-next svg{
+  width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;
+}
+.lb-close,.lb-prev,.lb-next{color:#fff}
+.lb-close:hover,.lb-prev:hover,.lb-next:hover{background:var(--ui-blue)!important}
+.tg-c:hover,.img-card:hover{
+  border-color:rgba(45,168,255,.48)!important;
+}
+.app-download-card:hover{border-color:rgba(45,168,255,.45)}
+</style>
+
+
+<style id="blue-white-theme">
+:root{
+  --ui-bg:#050b14;
+  --ui-surface:#0a1422;
+  --ui-surface-2:#0f1d30;
+  --ui-border:rgba(150,190,235,.14);
+  --ui-text:#ffffff;
+  --ui-muted:#9fb0c6;
+  --ui-accent:#2f8cff;
+  --ui-accent-2:#1265d8;
+  --ui-blue:#2f8cff;
+  --ui-blue-2:#64b5ff;
+  --ui-glow:rgba(47,140,255,.22);
+}
+body{
+  background:
+    radial-gradient(circle at 10% 0%,rgba(47,140,255,.13),transparent 30rem),
+    radial-gradient(circle at 90% 12%,rgba(100,181,255,.08),transparent 28rem),
+    var(--ui-bg);
+  color:#fff;
+}
+body:before{
+  opacity:.025;
+}
+.site-header{
+  background:rgba(5,11,20,.84)!important;
+  border-bottom:1px solid rgba(100,181,255,.13)!important;
+}
+.logo span,.tg-sec .tg-t span,.app-downloads h2 span,.app-kicker{
+  color:#4ca3ff!important;
+}
+.main-nav>a:hover,.sub-toggle:hover{
+  background:rgba(47,140,255,.09);
+  color:#fff!important;
+}
+.sub{
+  background:#0a1422!important;
+  border-color:rgba(100,181,255,.16)!important;
+}
+.btn.accent,.tg-pl{
+  background:linear-gradient(135deg,#4ca3ff,#1265d8)!important;
+  color:#fff!important;
+  box-shadow:0 8px 28px rgba(47,140,255,.22)!important;
+}
+.btn.accent:hover,.tg-pl:hover{
+  background:linear-gradient(135deg,#69b4ff,#1976e8)!important;
+}
+.btn.outline{
+  color:#fff!important;
+  border-color:rgba(100,181,255,.45)!important;
+  background:rgba(47,140,255,.045)!important;
+}
+.welcome-section{
+  background:
+    linear-gradient(135deg,rgba(47,140,255,.07),rgba(255,255,255,.018)),
+    #0a1422!important;
+  border-color:rgba(100,181,255,.15)!important;
+}
+.welcome-section:before{
+  background:radial-gradient(circle,rgba(47,140,255,.2),transparent 68%);
+}
+.lwptoc,.tg-sec,.app-downloads,.faq-item{
+  background:linear-gradient(145deg,rgba(15,29,48,.96),rgba(7,15,27,.96))!important;
+  border-color:rgba(100,181,255,.13)!important;
+}
+.lwptoc_toggle_label,.tg-sec .tg-va{
+  color:#64b5ff!important;
+}
+.lwptoc_item_number{
+  color:#4ca3ff!important;
+}
+.tg-bd{
+  background:#2f8cff!important;
+  color:#fff!important;
+}
+.tg-bd.is-new{
+  background:#64b5ff!important;
+  color:#06111e!important;
+}
+.tg-c:hover,.img-card:hover,.app-download-card:hover{
+  border-color:rgba(47,140,255,.55)!important;
+  box-shadow:0 18px 45px rgba(12,92,190,.18)!important;
+}
+.img-card:hover{
+  border-color:rgba(47,140,255,.55)!important;
+}
+.faq-item[open]{
+  border-color:rgba(47,140,255,.45)!important;
+}
+.faq-item summary::after{
+  color:#4ca3ff!important;
+}
+.bonus-bar{
+  background:linear-gradient(90deg,rgba(4,10,19,.98),rgba(8,37,73,.98))!important;
+  border-top:1px solid rgba(47,140,255,.45)!important;
+}
+.bonus-bar__text strong{
+  color:#fff!important;
+}
+.app-live{
+  color:#64b5ff!important;
+}
+.app-icon{
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 10px 25px rgba(0,0,0,.18);
+}
+.android-icon{
+  background:linear-gradient(145deg,#4ca3ff,#1265d8)!important;
+  color:#fff!important;
+}
+.ios-icon{
+  background:linear-gradient(145deg,#ffffff,#cdd9e7)!important;
+  color:#08111d!important;
+}
+.app-download-arrow{
+  background:rgba(47,140,255,.11)!important;
+  color:#64b5ff!important;
+}
+.lb-close:hover,.lb-prev:hover,.lb-next:hover{
+  background:#2f8cff!important;
+}
+.ui-inline-icon{
+  color:currentColor;
+}
+.site-footer{
+  background:#040911!important;
+  border-top-color:rgba(100,181,255,.12)!important;
+}
+</style>
+
+
+<style id="sports-image-border">
+/* Premium border treatment for the Global Sports image cards */
+#sports-list .img-card{
+  position:relative;
+  isolation:isolate;
+  border:1px solid rgba(255,255,255,.10)!important;
+  border-radius:20px!important;
+  padding:5px!important;
+  background:
+    linear-gradient(#0a1422,#0a1422) padding-box,
+    linear-gradient(135deg,rgba(100,181,255,.75),rgba(47,140,255,.18),rgba(255,255,255,.22)) border-box!important;
+  box-shadow:
+    0 12px 35px rgba(0,0,0,.25),
+    inset 0 0 0 1px rgba(255,255,255,.025);
+  transition:transform .28s ease,box-shadow .28s ease,filter .28s ease!important;
+}
+#sports-list .img-card:before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  z-index:-1;
+  border-radius:21px;
+  background:linear-gradient(135deg,rgba(100,181,255,.75),rgba(47,140,255,.12),rgba(255,255,255,.20));
+  filter:blur(8px);
+  opacity:.18;
+  transition:opacity .28s ease,filter .28s ease;
+}
+#sports-list .img-card>img{
+  width:100%!important;
+  aspect-ratio:4/3!important;
+  object-fit:cover!important;
+  border-radius:15px!important;
+  display:block;
+  transition:transform .35s ease,filter .35s ease;
+}
+#sports-list .img-card .cap{
+  margin-top:5px;
+  border-radius:0 0 15px 15px;
+  background:linear-gradient(180deg,rgba(15,29,48,.94),rgba(8,16,28,.98));
+}
+#sports-list .img-card .cap b{
+  color:#fff;
+  letter-spacing:.1px;
+}
+#sports-list .img-card:hover{
+  transform:translateY(-6px)!important;
+  border-color:rgba(100,181,255,.72)!important;
+  box-shadow:
+    0 0 0 1px rgba(47,140,255,.18),
+    0 18px 45px rgba(8,72,150,.25),
+    0 0 28px rgba(47,140,255,.13)!important;
+}
+#sports-list .img-card:hover:before{
+  opacity:.62;
+  filter:blur(12px);
+}
+#sports-list .img-card:hover>img{
+  transform:scale(1.025);
+  filter:saturate(1.06) contrast(1.02);
+}
+#sports-list .img-card:focus-within{
+  outline:2px solid rgba(100,181,255,.65);
+  outline-offset:3px;
+}
+@media(max-width:560px){
+  #sports-list .img-card{padding:4px!important;border-radius:17px!important}
+  #sports-list .img-card>img{border-radius:13px!important}
+}
+@media(prefers-reduced-motion:reduce){
+  #sports-list .img-card,#sports-list .img-card>img{transition:none!important}
+}
+</style>
+
 </head>
 <body>
 
@@ -625,7 +886,9 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
         <p>Create an account today and instantly unlock an exclusive <strong>100% Sports Welcome Bonus up to $130</strong> or a massive <strong>$1,500 + 150 Free Spins</strong> Casino Package using promo code <strong>VIPCYLON</strong>. Fast registration with instant deposits via Credit Cards, E-Wallets, and Crypto.</p>
       </div>
       <div class="welcome-section__buttons">
-        <a class="btn accent large" href="https://refpa132145.top/L?tag=d_1234m_1572c_&site=1234&ad=1572" target="_blank" rel="nofollow noopener">Register Account Now 🚀</a>
+        <a class="btn accent large" href="https://refpa132145.top/L?tag=d_1234m_1572c_&site=1234&ad=1572" target="_blank" rel="nofollow noopener">Register Account Now <svg class="ui-inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M13.2 3.2c3.1-.9 5.5-.6 6.6-.1.5 1.1.8 3.5-.1 6.6-.9 3.1-3.2 6-6.3 8.1l-3.2-3.2-3.2 1.1-1.5-1.5 1.1-3.2-3.2-3.2c2.1-3.1 5-5.4 8.1-6.3Zm-5.7 9.3 2.8-2.8m2.7 7.9 2.8-2.8M14.7 9.3a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6Z"/>
+    </svg></a>
       </div>
     </div>
     <div class="image">
@@ -692,7 +955,10 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
       <h2 class="tg-t" id="tg-heading">Top 1xBet <span>Slots & Crash Games</span></h2>
       <div class="tg-s">Global player favorites · Instant payouts · Promo code VIPCYLON</div>
     </div>
-    <a class="tg-va" href="https://refpa132145.top/L?tag=d_1234m_1572c_&site=1234&ad=1572" target="_blank" rel="nofollow noopener">View all 8,000+ games →</a>
+    <a class="tg-va" href="https://refpa132145.top/L?tag=d_1234m_1572c_&site=1234&ad=1572" target="_blank" rel="nofollow noopener">View all 8,000+ games
+    <svg class="ui-inline-icon ui-arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M5 12h13m-5-5 5 5-5 5"/>
+    </svg></a>
   </div>
   <div class="tg-grid">
       <article class="tg-c">
@@ -857,10 +1123,16 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
 
 <!-- LIGHTBOX MODAL -->
 <div class="lb-overlay" id="lightbox">
-  <button class="lb-close" onclick="closeLightbox()">&times;</button>
-  <button class="lb-prev" onclick="changeImage(-1)">&#10094;</button>
+  <button class="lb-close" aria-label="Close image" onclick="closeLightbox()">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  <button class="lb-prev" aria-label="Previous image" onclick="changeImage(-1)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+    </button>
   <img id="lb-img" src="" alt="Full view">
-  <button class="lb-next" onclick="changeImage(1)">&#10095;</button>
+  <button class="lb-next" aria-label="Next image" onclick="changeImage(1)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+    </button>
   <div class="lb-cap" id="lb-cap"></div>
 </div>
 
@@ -871,7 +1143,9 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <a href="https://refpa132145.top/L?tag=d_1234m_1572c_&site=1234&ad=1572" target="_blank" rel="nofollow noopener" class="btn accent">Claim Bonus</a>
-    <button class="bonus-bar__close" onclick="document.getElementById('bonusBar').style.display='none'">&times;</button>
+    <button class="bonus-bar__close" aria-label="Close" onclick="document.getElementById('bonusBar').style.display='none'">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
   </div>
 </div>
 
