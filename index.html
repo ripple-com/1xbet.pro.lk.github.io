@@ -610,6 +610,7 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
 </style>
 
 <style id="platform-icon-update">
+.app-icon img{width:38px;height:38px;display:block;object-fit:contain}
 .app-icon svg{width:34px;height:34px;display:block;fill:currentColor}
 .android-icon{color:#07130b}
 .ios-icon{color:#111}
@@ -618,13 +619,8 @@ main{max-width:1280px!important;padding:34px 20px 90px!important}
 
 <style id="android-icon-refresh">
 .android-icon{
-  background:linear-gradient(145deg,#9af23b 0%,#35c85b 55%,#159447 100%)!important;
-  color:#07130b!important;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 10px 24px rgba(50,200,90,.18);
-}
-.android-icon svg{width:38px;height:38px}
-.app-download-card:hover .android-icon{
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 14px 30px rgba(50,200,90,.28);
+  background:transparent!important;
+  box-shadow:none!important;
 }
 </style>
 
@@ -787,11 +783,7 @@ body:before{
   color:#64b5ff!important;
 }
 .app-icon{
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 10px 25px rgba(0,0,0,.18);
-}
-.android-icon{
-  background:linear-gradient(145deg,#4ca3ff,#1265d8)!important;
-  color:#fff!important;
+  box-shadow:none;
 }
 .ios-icon{
   background:linear-gradient(145deg,#ffffff,#cdd9e7)!important;
@@ -886,41 +878,6 @@ body:before{
 }
 </style>
 
-<style id="real-android-brand-icon">
-.app-icon.android-icon{
-  background:#3ddc84!important;
-  color:#ffffff!important;
-  border-radius:16px!important;
-  display:grid!important;
-  place-items:center!important;
-}
-.app-icon.android-icon svg{
-  width:38px!important;
-  height:38px!important;
-  fill:currentColor!important;
-}
-.app-download-card:hover .android-icon{
-  background:#42e58b!important;
-  transform:scale(1.06);
-}
-</style>
-
-<style id="android-real-icon-final">
-.app-icon.android-icon{
-  background:#3DDC84!important;
-  color:#fff!important;
-  border-radius:16px!important;
-  display:grid!important;
-  place-items:center!important;
-  box-shadow:0 10px 26px rgba(61,220,132,.18),inset 0 1px 0 rgba(255,255,255,.3)!important;
-}
-.app-icon.android-icon svg{
-  display:block!important;
-  width:40px!important;
-  height:40px!important;
-}
-</style>
-
 <style id="real-1xbet-logo-ui">
 .logo{display:flex!important;align-items:center!important;height:42px}
 .real-1xbet-logo{display:block;width:118px;height:auto;max-height:38px;object-fit:contain}
@@ -982,10 +939,8 @@ body:before{
   <div class="app-downloads__grid">
     <a class="app-download-card" href="https://reffpa.com/L?tag=d_4838989m_1236c_&site=4838989&ad=1236" target="_blank" rel="nofollow noopener" aria-label="Download 1xBet Android APK">
       <div class="app-icon android-icon" aria-label="Android">
-      <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-        <path fill="currentColor" d="M7.05 8.02h9.9a1.05 1.05 0 0 1 1.05 1.05v6.18c0 .58-.47 1.05-1.05 1.05h-.78v2.02a.78.78 0 1 1-1.56 0V16.3H9.39v2.02a.78.78 0 1 1-1.56 0V16.3h-.78A1.05 1.05 0 0 1 6 15.25V9.07c0-.58.47-1.05 1.05-1.05ZM8.1 7.35a5.9 5.9 0 0 1 7.8 0l1.02-1.76a.52.52 0 1 0-.9-.52L15 6.76a5.74 5.74 0 0 0-6 0L7.98 5.07a.52.52 0 1 0-.9.52L8.1 7.35Zm2.15 2.22a.68.68 0 1 0 0 1.36.68.68 0 0 0 0-1.36Zm3.5 0a.68.68 0 1 0 0 1.36.68.68 0 0 0 0-1.36ZM4.72 9.18a.78.78 0 0 1 .78.78v5.23a.78.78 0 1 1-1.56 0V9.96a.78.78 0 0 1 .78-.78Zm14.56 0a.78.78 0 0 1 .78.78v5.23a.78.78 0 1 1-1.56 0V9.96a.78.78 0 0 1 .78-.78Z"/>
-      </svg>
-    </div>
+        <img src="images/android.svg" alt="Android Icon" width="38" height="38">
+      </div>
       <div class="app-download-card__content">
         <span class="app-platform">ANDROID</span>
         <strong>Android APK</strong>
