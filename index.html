@@ -864,12 +864,21 @@ body:before{
 }
 </style>
 
+
+<style id="real-1xbet-logo-ui">
+.logo{display:flex!important;align-items:center!important;height:42px}
+.real-1xbet-logo{display:block;width:118px;height:auto;max-height:38px;object-fit:contain}
+@media(max-width:540px){.real-1xbet-logo{width:96px;max-height:32px}}
+</style>
+
 </head>
 <body>
 
 <header class="site-header">
   <div class="header-inner">
-    <a href="index.html" class="logo">1<span>xBet</span></a>
+    <a href="index.html" class="logo" aria-label="1xBet Home">
+  <img src="images/1xbet-logo.svg" alt="1xBet" class="real-1xbet-logo">
+</a>
     <nav class="main-nav">
       <a href="app/">App</a>
       <a href="sports/">Sports Betting</a>
